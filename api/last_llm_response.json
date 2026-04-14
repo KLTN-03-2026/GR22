@@ -1,0 +1,68 @@
+{ "personal_info": {
+"name": "NGUYEN QUOC KHANH",
+"current_job_title": "FULLSTACK WEB DEVELOPER",
+"about_me": "I like dealing with difficult problems and challenging issues. Besides that, I’m rather serious and proactive in my work. I expect to contribute and develop with your company. Besides being a coder, I also love football."},
+
+"experience": [
+{
+"company": "",
+"position": "FrontEnd Developer",
+"team_size": 17,
+"technical": ["React", "Redux", "Google Map", "TypeScript", "Python", "Docker", "MicroService"],
+"description": ["Create UI system manage networks belong to MobiFone + Integrations API for system + Work according to the Agile model"]
+},
+{
+"company": "",
+"position": "FrontEnd Developer - Backend Developer",
+"team_size": 3,
+"technical": ["React", "Electron", "MySql", "Docker"],
+"description": ["Build database for the system + UI design + Building frontend + Build electronic connections"]
+},
+{
+"company": "",
+"position": "FrontEnd Developer",
+"team_size": 15,
+"technical": ["React", "Docker", "TypeScript"],
+"description": ["Using atoms design to build the system + Use scss, axios, antd and many library react + Learn teamwork skills + Building modules validate form, handle authen system"]
+},
+{
+"company": "",
+"position": "FrontEnd Developer",
+"team_size": 3,
+"technical": ["React", "TypeScript", "React Hook Form", "Redux", "Antd"],
+"description": ["Deploy the project as a front end developer + Use material ui library, react lib + Handle effect on component"]
+}],
+
+"education": [
+{
+"degree": "",
+"university": "",
+"time": ""
+}
+],
+"projects": [
+{
+"name": "Clone Instagram App",
+"tech_stack": ["React", "Redux", "Bootstrap", "css"],
+"description": "FrontEnd : React, Redux, Boostrap, css.... BackEnd: Nodejs Express, JWT, Socket.io, PreerJs..."
+},
+{
+"name": "React Movie App",
+"tech_stack": ["React", "Html", "Boostrap", "scss"],
+"description": "FrontEnd : React, Html, Boostrap, scss.... BackEnd: Api film themoviedb"
+},
+{
+"name": "Social Web App",
+"tech_stack": ["Nodejs", "MongoDb", "ExpressJs", "JWT", "Redis", "API", "Cloudinary Image"],
+"description": "FrontEnd : React, Redux, Boostrap, css,... BackEnd: Nodejs Express, JWT, Cloudinary..."
+},
+{
+"name": "Zoom Chat",
+"tech_stack": ["Html", "css", "js"],
+"description": "FrontEnd : Html ,css, js... BackEnd: NodeJS, Socket.IO,WebRTC..."
+},
+{
+"name": "Shop Clother",
+"tech_stack": ["Laravel7", "socket when push notification and run cronjob background when send email with many user"],
+"description": "" }
+] }

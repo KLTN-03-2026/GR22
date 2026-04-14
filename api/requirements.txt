@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pymupdf
+spacy
+pydantic
+requests
+python-multipart
+google-generativeai
+python-dotenv
+scikit-learn
+pandas
