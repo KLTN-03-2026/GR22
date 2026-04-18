@@ -18,5 +18,7 @@ router.post('/upload', authenticate, upload.single('file'), cvController.uploadC
 
 // Upload PDF for extraction only
 router.post('/extract', authenticate, upload.single('file'), cvController.extractFromPDF);
+router.post('/evaluate', authenticate, cvController.evaluateCV);
+router.get('/history/:profileId', authenticate, cvController.getEvaluationHistory);
 
 module.exports = router;
