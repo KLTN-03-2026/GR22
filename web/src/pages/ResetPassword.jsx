@@ -1,3 +1,4 @@
+// Module: pages/ResetPassword.jsx - Quản lý logic hệ thống
 import React, { useState } from 'react';
 import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import { Lock, CheckCircle, ArrowLeft } from 'lucide-react';
@@ -119,3 +120,5 @@ const ResetPassword = () => {
 };
 
 export default ResetPassword;
+
+// Git update: Triggering change for push

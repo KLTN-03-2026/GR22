@@ -1,3 +1,4 @@
+// Module: services/aiService.js - Quản lý logic hệ thống
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const dotenv = require('dotenv');
 
@@ -138,3 +139,5 @@ exports.evaluateCV = async (profile) => {
     };
   }
 };
+
+// Git update: Triggering change for push

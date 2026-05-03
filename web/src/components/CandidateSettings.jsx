@@ -1,3 +1,4 @@
+// Module: components/CandidateSettings.jsx - Quản lý logic hệ thống
 import React, { useState } from 'react';
 import { Lock, CheckCircle, Eye, EyeOff } from 'lucide-react';
 import api from '../services/api';
@@ -131,3 +132,5 @@ const CandidateSettings = () => {
 };
 
 export default CandidateSettings;
+
+// Git update: Triggering change for push

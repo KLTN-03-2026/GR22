@@ -1,3 +1,4 @@
+# Module: api/test_local.py - Quản lý logic hệ thống
 import sys
 import os
 
@@ -48,3 +49,5 @@ def test_extraction():
 
 if __name__ == "__main__":
     test_extraction()
+
+# Git update: Triggering change for push

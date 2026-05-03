@@ -1,3 +1,4 @@
+// Module: pages/JobRecommendations.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useRecommendations } from '../hooks/useCV';
@@ -134,3 +135,5 @@ const JobRecommendations = () => {
 };
 
 export default JobRecommendations;
+
+// Git update: Triggering change for push

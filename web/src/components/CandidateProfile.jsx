@@ -1,3 +1,4 @@
+// Module: components/CandidateProfile.jsx - Quản lý logic hệ thống
 import React, { useEffect } from 'react';
 import { useForm, Controller } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -220,3 +221,5 @@ const CandidateProfile = () => {
 };
 
 export default CandidateProfile;
+
+// Git update: Triggering change for push

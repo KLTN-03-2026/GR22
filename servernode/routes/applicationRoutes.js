@@ -1,3 +1,4 @@
+// Module: routes/applicationRoutes.js - Quản lý logic hệ thống
 const express = require('express');
 const router = express.Router();
 const applicationController = require('../controllers/applicationController');
@@ -12,3 +13,5 @@ router.post('/analyze/:jobId', authenticate, isRecruiter, applicationController.
 router.post('/', authenticate, applicationController.applyToJob);
 
 module.exports = router;
+
+// Git update: Triggering change for push

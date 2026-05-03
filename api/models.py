@@ -1,3 +1,4 @@
+# Module: api/models.py - Quản lý logic hệ thống
 from pydantic import BaseModel, Field, field_validator
 from typing import List, Optional, Union, Any
 
@@ -82,3 +83,5 @@ class JobRecommendation(BaseModel):
 
 class RecommendationResponse(BaseModel):
     recommendations: List[Any] = []
+
+# Git update: Triggering change for push

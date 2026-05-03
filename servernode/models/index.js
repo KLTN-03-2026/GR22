@@ -1,3 +1,4 @@
+// Module: models/index.js - Quản lý logic hệ thống
 const { Sequelize, DataTypes } = require('sequelize');
 const dotenv = require('dotenv');
 
@@ -140,3 +141,5 @@ Profile.hasMany(CVEvaluation, { foreignKey: 'profileId', as: 'evaluations', onDe
 CVEvaluation.belongsTo(Profile, { foreignKey: 'profileId' });
 
 module.exports = { sequelize, User, Profile, Job, Application, Skill, Company, SmtpSettings, CVEvaluation, Banner };
+
+// Git update: Triggering change for push

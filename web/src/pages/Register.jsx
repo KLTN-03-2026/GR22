@@ -1,3 +1,4 @@
+// Module: pages/Register.jsx - Quản lý logic hệ thống
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import api from '../services/api';
@@ -118,3 +119,5 @@ const Register = () => {
 };
 
 export default Register;
+
+// Git update: Triggering change for push

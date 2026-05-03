@@ -1,3 +1,4 @@
+// Module: hooks/useJobs.js - Quản lý logic hệ thống
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import api from '../services/api';
 
@@ -102,3 +103,5 @@ export const useDeleteJob = () => {
     },
   });
 };
+
+// Git update: Triggering change for push

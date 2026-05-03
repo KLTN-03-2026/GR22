@@ -1,3 +1,4 @@
+// Module: controllers/recommendController.js - Quản lý logic hệ thống
 const { Profile, Job, Company } = require('../models');
 const axios = require('axios');
 
@@ -69,3 +70,5 @@ exports.getJobRecommendations = async (req, res) => {
     res.status(500).json({ error: 'Failed to get recommendations from AI.' });
   }
 };
+
+// Git update: Triggering change for push

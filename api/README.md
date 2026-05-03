@@ -42,3 +42,5 @@ Bạn có thể chạy script `test_local.py` để kiểm tra việc đọc PDF
 - `parser.py`: Logic trích xuất văn bản và gọi LLM.
 - `models.py`: Định nghĩa cấu trúc dữ liệu CV (Pydantic).
 - `test_local.py`: Script kiểm tra nhanh.
+
+<!-- Git update: Triggering change for push -->

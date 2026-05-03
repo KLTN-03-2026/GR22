@@ -1,3 +1,4 @@
+// Module: components/CandidateCVManager.jsx - Quản lý logic hệ thống
 import React, { useState, useEffect } from 'react';
 import { Upload, FileText, Sparkles, Loader2, CheckCircle, Briefcase, Zap, Star, Save, Plus, Trash2, User, Mail, Phone, MapPin, Github, GraduationCap } from 'lucide-react';
 import { useProfile, useUpdateProfile, useUploadCV, useSuggestions } from '../hooks/useProfile';
@@ -415,3 +416,5 @@ const CandidateCVManager = () => {
 };
 
 export default CandidateCVManager;
+
+// Git update: Triggering change for push

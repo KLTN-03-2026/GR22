@@ -1,3 +1,4 @@
+// Module: controllers/jobController.js - Quản lý logic hệ thống
 const { Job, User, Skill, Company, sequelize } = require('../models');
 const { Sequelize } = require('sequelize');
 
@@ -172,3 +173,5 @@ exports.deleteJob = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Git update: Triggering change for push

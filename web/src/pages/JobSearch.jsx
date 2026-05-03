@@ -1,3 +1,4 @@
+// Module: pages/JobSearch.jsx - Quản lý logic hệ thống
 import React, { useState, useMemo } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { Search, MapPin, DollarSign, Briefcase, Loader2, Filter, X, ArrowRight, Building2, Star, Type } from 'lucide-react';
@@ -287,3 +288,5 @@ const JobSearch = () => {
 };
 
 export default JobSearch;
+
+// Git update: Triggering change for push

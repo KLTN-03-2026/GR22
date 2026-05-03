@@ -1,3 +1,4 @@
+// Module: recruiter/Settings.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { useSmtpSettings, useUpdateSmtpSettings } from '../../hooks/useSettings';
 import { Mail, Server, Shield, Send, Save, Loader2, Sparkles, AlertCircle, Lock, CheckCircle, Eye, EyeOff, Settings } from 'lucide-react';
@@ -292,3 +293,5 @@ const RecruiterSettings = () => {
 };
 
 export default RecruiterSettings;
+
+// Git update: Triggering change for push

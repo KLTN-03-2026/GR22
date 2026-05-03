@@ -1,3 +1,4 @@
+// Module: controllers/companyController.js - Quản lý logic hệ thống
 const { Company, Job, User } = require('../models');
 
 // Public: list all companies
@@ -72,3 +73,5 @@ exports.updateCompany = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Git update: Triggering change for push

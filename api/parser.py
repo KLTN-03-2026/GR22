@@ -1,3 +1,8 @@
+# Module: api/parser.py - Quản lý logic hệ thống
+"""
+CV Parser Module
+Provides functionality to extract and process data from CV PDFs using RegEx and Gemini AI.
+"""
 import fitz  # PyMuPDF
 import re
 import json
@@ -407,3 +412,5 @@ def get_job_recommendations_v2(cv_data: Dict[str, Any], jobs_list: List[Dict[str
     except Exception as e:
         print(f"[ERROR] Traditional recommendation failed: {e}")
         return {"recommendations": []}
+
+# Git update: Triggering change for push

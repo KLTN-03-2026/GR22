@@ -1,3 +1,4 @@
+// Module: components/CompanyProfile.jsx - Quản lý logic hệ thống
 import React, { useState, useEffect } from 'react';
 import { useForm, Controller } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -174,3 +175,5 @@ const CompanyProfile = () => {
 };
 
 export default CompanyProfile;
+
+// Git update: Triggering change for push

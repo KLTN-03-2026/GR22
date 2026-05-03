@@ -1,3 +1,4 @@
+// Module: ui/CustomSelect.jsx - Quản lý logic hệ thống
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronDown, Check, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -166,3 +167,5 @@ const CustomSelect = ({
 };
 
 export default CustomSelect;
+
+// Git update: Triggering change for push

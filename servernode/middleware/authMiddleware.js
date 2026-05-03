@@ -1,3 +1,4 @@
+// Module: middleware/authMiddleware.js - Quản lý logic hệ thống
 const jwt = require('jsonwebtoken');
 
 exports.authenticate = (req, res, next) => {
@@ -24,3 +25,5 @@ exports.isAdmin = (req, res, next) => {
   }
   next();
 };
+
+// Git update: Triggering change for push

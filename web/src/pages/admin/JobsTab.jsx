@@ -1,3 +1,4 @@
+// Module: admin/JobsTab.jsx - Quản lý logic hệ thống
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
 import { Search, CheckCircle, Clock, XCircle, Trash2, Eye } from 'lucide-react';
@@ -128,3 +129,5 @@ const JobsTab = () => {
 };
 
 export default JobsTab;
+
+// Git update: Triggering change for push

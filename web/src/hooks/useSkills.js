@@ -1,3 +1,4 @@
+// Module: hooks/useSkills.js - Quản lý logic hệ thống
 import { useQuery } from '@tanstack/react-query';
 import api from '../services/api';
 
@@ -10,3 +11,5 @@ export const useSkills = () => {
     },
   });
 };
+
+// Git update: Triggering change for push

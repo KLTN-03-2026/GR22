@@ -1,3 +1,4 @@
+// Module: servernode/fix_db.js - Quản lý logic hệ thống
 const { sequelize } = require('./models');
 
 async function fix() {
@@ -56,3 +57,5 @@ async function fix() {
 }
 
 fix();
+
+// Git update: Triggering change for push

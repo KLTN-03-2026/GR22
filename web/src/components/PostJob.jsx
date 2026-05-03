@@ -1,3 +1,4 @@
+// Module: components/PostJob.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { usePostJob } from '../hooks/useJobs';
 import { useSkills } from '../hooks/useSkills';
@@ -257,3 +258,5 @@ const PostJob = () => {
 };
 
 export default PostJob;
+
+// Git update: Triggering change for push

@@ -1,3 +1,4 @@
+// Module: routes/userRoutes.js - Quản lý logic hệ thống
 const express = require('express');
 const multer = require('multer');
 const router = express.Router();
@@ -11,3 +12,5 @@ router.put('/me', authenticate, userController.updateUserInfo);
 router.post('/avatar', authenticate, upload.single('file'), userController.updateAvatar);
 
 module.exports = router;
+
+// Git update: Triggering change for push

@@ -1,3 +1,4 @@
+// Module: components/EditJob.jsx - Quản lý logic hệ thống
 import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useForm, Controller } from 'react-hook-form';
@@ -263,3 +264,5 @@ const EditJob = () => {
 };
 
 export default EditJob;
+
+// Git update: Triggering change for push

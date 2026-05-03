@@ -1,3 +1,4 @@
+// Module: controllers/bannerController.js - Quản lý logic hệ thống
 const { Banner } = require('../models');
 const fs = require('fs');
 const path = require('path');
@@ -91,3 +92,5 @@ exports.deleteBanner = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Git update: Triggering change for push

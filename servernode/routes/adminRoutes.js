@@ -1,3 +1,4 @@
+// Module: routes/adminRoutes.js - Quản lý logic hệ thống
 const express = require('express');
 const {
   getDashboardStats,
@@ -27,3 +28,5 @@ router.post('/skills', authenticate, isAdmin, createSkill);
 router.delete('/skills/:id', authenticate, isAdmin, deleteSkill);
 
 module.exports = router;
+
+// Git update: Triggering change for push

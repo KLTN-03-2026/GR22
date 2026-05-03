@@ -1,3 +1,4 @@
+// Module: utils/systemEmail.js - Quản lý logic hệ thống
 const nodemailer = require('nodemailer');
 
 /**
@@ -31,3 +32,5 @@ exports.sendSystemEmail = async (emailData) => {
 
   return await transporter.sendMail(mailOptions);
 };
+
+// Git update: Triggering change for push

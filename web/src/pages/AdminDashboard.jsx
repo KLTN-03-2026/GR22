@@ -1,3 +1,4 @@
+// Module: pages/AdminDashboard.jsx - Quản lý logic hệ thống
 import { useNavigate, Routes, Route, NavLink, Navigate } from 'react-router-dom';
 import DashboardTab from './admin/DashboardTab';
 import UsersTab from './admin/UsersTab';
@@ -80,3 +81,5 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+
+// Git update: Triggering change for push

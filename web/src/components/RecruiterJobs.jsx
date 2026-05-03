@@ -1,3 +1,4 @@
+// Module: components/RecruiterJobs.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Briefcase, Plus, TrendingUp, Sparkles, Loader2, MapPin, Clock, DollarSign, Edit, Users, XCircle, Trash2, CheckCircle } from 'lucide-react';
@@ -184,3 +185,5 @@ const RecruiterJobs = () => {
 };
 
 export default RecruiterJobs;
+
+// Git update: Triggering change for push

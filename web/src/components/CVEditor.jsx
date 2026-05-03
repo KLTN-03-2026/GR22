@@ -1,3 +1,4 @@
+// Module: components/CVEditor.jsx - Quản lý logic hệ thống
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useCV, useCreateCV, useUpdateCV, useExtractCV, useEvaluateCV, useEvaluationHistory } from '../hooks/useCV';
@@ -565,3 +566,5 @@ const CVEditor = () => {
 };
 
 export default CVEditor;
+
+// Git update: Triggering change for push

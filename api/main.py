@@ -1,3 +1,4 @@
+# Module: api/main.py - Quản lý logic hệ thống
 from fastapi import FastAPI, UploadFile, File, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
@@ -56,3 +57,5 @@ async def recommend_jobs(request: RecommendationRequest):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+# Git update: Triggering change for push

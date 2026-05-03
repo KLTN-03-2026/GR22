@@ -1,3 +1,4 @@
+// Module: src/App.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -47,3 +48,5 @@ function App() {
 }
 
 export default App;
+
+// Git update: Triggering change for push

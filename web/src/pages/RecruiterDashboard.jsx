@@ -1,3 +1,4 @@
+// Module: pages/RecruiterDashboard.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { Routes, Route, NavLink, useNavigate, Navigate, useLocation } from 'react-router-dom';
 import { Briefcase, Building2, Settings, LogOut, ChevronRight, Plus } from 'lucide-react';
@@ -85,3 +86,5 @@ const RecruiterDashboard = () => {
 };
 
 export default RecruiterDashboard;
+
+// Git update: Triggering change for push

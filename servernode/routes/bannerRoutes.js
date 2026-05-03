@@ -1,3 +1,4 @@
+// Module: routes/bannerRoutes.js - Quản lý logic hệ thống
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
@@ -23,3 +24,5 @@ router.put('/admin/:id', authenticate, isAdmin, upload.single('image'), bannerCo
 router.delete('/admin/:id', authenticate, isAdmin, bannerController.deleteBanner);
 
 module.exports = router;
+
+// Git update: Triggering change for push

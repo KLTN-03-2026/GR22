@@ -1,3 +1,4 @@
+// Module: routes/companyRoutes.js - Quản lý logic hệ thống
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
@@ -24,3 +25,5 @@ router.post('/my-company', authenticate, upload.single('logo'), companyControlle
 router.get('/:id', companyController.getCompanyById);
 
 module.exports = router;
+
+// Git update: Triggering change for push

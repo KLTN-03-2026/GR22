@@ -1,3 +1,4 @@
+// Module: web/tailwind.config.js - Quản lý logic hệ thống
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -24,3 +25,5 @@ export default {
   },
   plugins: [],
 }
+
+// Git update: Triggering change for push

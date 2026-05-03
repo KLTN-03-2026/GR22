@@ -1,3 +1,4 @@
+// Module: servernode/seedData.js - Quản lý logic hệ thống
 const bcrypt = require('bcryptjs');
 const { sequelize, User, Company, Job, Skill } = require('./models');
 
@@ -90,3 +91,5 @@ const seed = async () => {
 };
 
 seed();
+
+// Git update: Triggering change for push

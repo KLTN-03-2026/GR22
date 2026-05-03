@@ -1,3 +1,4 @@
+// Module: hooks/useCompany.js - Quản lý logic hệ thống
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import api from '../services/api';
 
@@ -62,3 +63,5 @@ export const useUpdateCompany = () => {
     },
   });
 };
+
+// Git update: Triggering change for push

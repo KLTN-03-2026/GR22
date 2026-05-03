@@ -1,3 +1,4 @@
+// Module: pages/JobDetail.jsx - Quản lý logic hệ thống
 import React, { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useJobById, useRelatedJobs } from '../hooks/useJobs';
@@ -298,3 +299,5 @@ const JobDetail = () => {
 };
 
 export default JobDetail;
+
+// Git update: Triggering change for push

@@ -1,3 +1,4 @@
+// Module: services/emailService.js - Quản lý logic hệ thống
 const nodemailer = require('nodemailer');
 
 /**
@@ -45,3 +46,5 @@ exports.formatTemplate = (template, data) => {
   }
   return formatted;
 };
+
+// Git update: Triggering change for push

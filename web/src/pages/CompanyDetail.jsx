@@ -1,3 +1,4 @@
+// Module: pages/CompanyDetail.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, MapPin, Globe, Briefcase, Building2, DollarSign, Loader2 } from 'lucide-react';
@@ -124,3 +125,5 @@ const CompanyDetail = () => {
 };
 
 export default CompanyDetail;
+
+// Git update: Triggering change for push

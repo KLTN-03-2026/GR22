@@ -1,3 +1,4 @@
+// Module: admin/DashboardTab.jsx - Quản lý logic hệ thống
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
 import { 
@@ -145,3 +146,5 @@ const DashboardTab = () => {
 };
 
 export default DashboardTab;
+
+// Git update: Triggering change for push

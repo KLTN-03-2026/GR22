@@ -1,3 +1,4 @@
+// Module: components/JobApplications.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { createPortal } from 'react-dom';
 import { useParams, useNavigate } from 'react-router-dom';
@@ -592,3 +593,5 @@ const JobApplications = () => {
 };
 
 export default JobApplications;
+
+// Git update: Triggering change for push

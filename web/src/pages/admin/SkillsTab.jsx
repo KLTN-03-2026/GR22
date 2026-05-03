@@ -1,3 +1,4 @@
+// Module: admin/SkillsTab.jsx - Quản lý logic hệ thống
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
 import { Plus, Trash2 } from 'lucide-react';
@@ -59,3 +60,5 @@ const SkillsTab = () => {
 };
 
 export default SkillsTab;
+
+// Git update: Triggering change for push

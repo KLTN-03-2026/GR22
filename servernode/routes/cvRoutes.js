@@ -1,3 +1,4 @@
+// Module: routes/cvRoutes.js - Quản lý logic hệ thống
 const express = require('express');
 const multer = require('multer');
 const cvController = require('../controllers/cvController');
@@ -22,3 +23,5 @@ router.post('/evaluate', authenticate, cvController.evaluateCV);
 router.get('/history/:profileId', authenticate, cvController.getEvaluationHistory);
 
 module.exports = router;
+
+// Git update: Triggering change for push

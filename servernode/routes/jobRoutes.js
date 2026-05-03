@@ -1,3 +1,4 @@
+// Module: routes/jobRoutes.js - Quản lý logic hệ thống
 const express = require('express');
 const { createJob, getAllJobs, getJobById, updateJob, deleteJob, getRelatedJobs, getRecruiterJobs } = require('../controllers/jobController');
 const { authenticate, isRecruiter } = require('../middleware/authMiddleware');
@@ -12,3 +13,5 @@ router.put('/:id', authenticate, isRecruiter, updateJob);
 router.delete('/:id', authenticate, isRecruiter, deleteJob);
 
 module.exports = router;
+
+// Git update: Triggering change for push

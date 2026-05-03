@@ -1,3 +1,4 @@
+// Module: components/MyApplications.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { useMyApplications } from '../hooks/useApplications';
 import {
@@ -151,3 +152,5 @@ const MyApplications = () => {
 };
 
 export default MyApplications;
+
+// Git update: Triggering change for push

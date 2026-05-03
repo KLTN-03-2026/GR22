@@ -1,3 +1,4 @@
+// Module: controllers/settingsController.js - Quản lý logic hệ thống
 const { SmtpSettings } = require('../models');
 
 exports.getSmtpSettings = async (req, res) => {
@@ -55,3 +56,5 @@ exports.updateSmtpSettings = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+// Git update: Triggering change for push

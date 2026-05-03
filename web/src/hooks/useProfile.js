@@ -1,3 +1,4 @@
+// Module: hooks/useProfile.js - Quản lý logic hệ thống
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import api from '../services/api';
 
@@ -100,3 +101,5 @@ export const useSuggestions = () => {
     },
   });
 };
+
+// Git update: Triggering change for push

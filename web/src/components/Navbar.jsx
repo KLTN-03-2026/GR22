@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+// Module: components/Navbar.jsx - Quản lý logic hệ thống
+/**
+ * Navbar Component
+ * Provides navigation links and user authentication status.
+ */
+>>>>>>> eda2b13 (update code)
 import { useLocation, Link, useNavigate } from 'react-router-dom';
 import { Briefcase, User, LogOut, LayoutDashboard } from 'lucide-react';
 
@@ -74,3 +82,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// Git update: Triggering change for push

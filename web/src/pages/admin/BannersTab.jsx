@@ -1,3 +1,4 @@
+// Module: admin/BannersTab.jsx - Quản lý logic hệ thống
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
 import { Edit3, Plus, Upload, Clock, CheckCircle, Trash2 } from 'lucide-react';
@@ -189,3 +190,5 @@ const BannersTab = () => {
 };
 
 export default BannersTab;
+
+// Git update: Triggering change for push

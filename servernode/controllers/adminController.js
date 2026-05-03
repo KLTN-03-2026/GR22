@@ -1,3 +1,4 @@
+// Module: controllers/adminController.js - Quản lý logic hệ thống
 const { User, Profile, Job, Application, Company, Skill } = require('../models');
 const { Op, fn, col, literal } = require('sequelize');
 
@@ -204,3 +205,5 @@ exports.deleteSkill = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Git update: Triggering change for push

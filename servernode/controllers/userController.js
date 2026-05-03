@@ -1,3 +1,4 @@
+// Module: controllers/userController.js - Quản lý logic hệ thống
 const { User } = require('../models');
 
 exports.getUserInfo = async (req, res) => {
@@ -47,3 +48,5 @@ exports.updateAvatar = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Git update: Triggering change for push

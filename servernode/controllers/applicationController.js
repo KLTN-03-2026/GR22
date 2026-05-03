@@ -1,3 +1,4 @@
+// Module: controllers/applicationController.js - Quản lý logic hệ thống
 const { Application, User, Profile, Job, Skill, Company, SmtpSettings } = require('../models');
 const emailService = require('../services/emailService');
 const aiService = require('../services/aiService');
@@ -266,3 +267,5 @@ exports.analyzeApplications = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Git update: Triggering change for push

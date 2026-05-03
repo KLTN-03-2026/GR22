@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+// Module: pages/Home.jsx - Quản lý logic hệ thống
+/**
+ * Home Page Component
+ * Displays the landing page with hero banners, featured companies, and latest jobs.
+ */
+>>>>>>> eda2b13 (update code)
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Search, MapPin, Briefcase, Sparkles, Loader2, DollarSign, Building2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
@@ -277,3 +285,5 @@ const Home = () => {
 };
 
 export default Home;
+
+// Git update: Triggering change for push

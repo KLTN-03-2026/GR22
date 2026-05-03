@@ -1,3 +1,4 @@
+// Module: pages/ForgotPassword.jsx - Quản lý logic hệ thống
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, ArrowLeft, CheckCircle } from 'lucide-react';
@@ -87,3 +88,5 @@ const ForgotPassword = () => {
 };
 
 export default ForgotPassword;
+
+// Git update: Triggering change for push

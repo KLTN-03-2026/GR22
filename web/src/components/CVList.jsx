@@ -1,3 +1,4 @@
+// Module: components/CVList.jsx - Quản lý logic hệ thống
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FileText, Plus, Loader2, Trash2, Edit, MapPin, Briefcase, Calendar, Sparkles } from 'lucide-react';
@@ -116,3 +117,5 @@ const CVList = () => {
 };
 
 export default CVList;
+
+// Git update: Triggering change for push

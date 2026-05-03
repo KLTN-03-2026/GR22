@@ -1,3 +1,4 @@
+// Module: utils/salaryUtils.js - Quản lý logic hệ thống
 /**
  * Formats a salary string to Vietnamese currency format (e.g., "10.000.000")
  * @param {string|number} salary - The raw salary from the database
@@ -59,3 +60,5 @@ export const formatSalaryInput = (value) => {
   if (!num) return '';
   return new Intl.NumberFormat('vi-VN').format(parseInt(num, 10));
 };
+
+// Git update: Triggering change for push

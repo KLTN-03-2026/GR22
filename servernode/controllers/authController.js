@@ -1,3 +1,4 @@
+// Module: controllers/authController.js - Quản lý logic hệ thống
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
@@ -139,3 +140,5 @@ exports.changePassword = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Git update: Triggering change for push

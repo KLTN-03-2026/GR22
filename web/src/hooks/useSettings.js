@@ -1,3 +1,4 @@
+// Module: hooks/useSettings.js - Quản lý logic hệ thống
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import axios from 'axios';
 
@@ -31,3 +32,5 @@ export const useUpdateSmtpSettings = () => {
     }
   });
 };
+
+// Git update: Triggering change for push

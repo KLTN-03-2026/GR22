@@ -1,3 +1,4 @@
+// Module: servernode/server.js - Quản lý logic hệ thống
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
@@ -48,3 +49,5 @@ sequelize.sync({ alter: true }).then(() => {
 }).catch(err => {
   console.error('Unable to connect to the database:', err);
 });
+
+// Git update: Triggering change for push
